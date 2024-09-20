@@ -1,0 +1,48 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+.env
+
+# Ignore Poetry specific files
+*.egg-info/
+
+# Ignore default virtual environment created by Poetry
+.virtualenvs/
+
+# Ignore development artifacts
+.idea/
+.vscode/
+*.log
+*.sqlite3
+
+# Ignore Docker specific files
+Dockerfile
+docker-compose.yml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test-related files
+tests/
+*.pytest_cache
+.coverage
+htmlcov/
+
+# Ignore Streamlit specific config
+.streamlit/
+
+data/
+
+.git/
+.gitignore
+.github/
+.dockerignore
+.ruff_cache
+docs/

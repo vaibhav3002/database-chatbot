@@ -1,0 +1,16 @@
+graph TD
+    A[User Interface] --> B[Natural Language Processing Module]
+    B --> C[Query Understanding]
+    C --> D[SQL Query Generation]
+    D --> E[Database Connector]
+    E --> F[(Northwind SQLite Database)]
+    E --> G[Result Processor]
+    G --> H[Response Generator]
+    H --> A
+    I[Error Handling] --> A
+    I --> B
+    I --> C
+    I --> D
+    I --> E
+    I --> G
+

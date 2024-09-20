@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "database-chatbot"
+version = "0.1.0"
+description = "Talk to your database"
+authors = ["Vaibhav Singh <vaibhav.3002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-openai = "^0.2.0"
+langgraph = "^0.2.22"
+python-dotenv = "^1.0.1"
+streamlit = "^1.38.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.6"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
